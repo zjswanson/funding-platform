@@ -1,0 +1,70 @@
+{
+  "ideas" : [
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : "",
+      "risk" : "",
+      "inspiration" : ""
+    },
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : "",
+      "risk" : "",
+      "inspiration" : ""
+    }
+  ],
+  "charitable" : [
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : "",
+      "deductable" : "",
+      "beneficiary" : ""
+    },
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : "",
+      "deductable" : "",
+      "beneficiary" : ""
+    }
+  ],
+  "projects" : [
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : ""
+    },
+    {
+      "name" : "",
+      "target" : "",
+      "funded" : "",
+      "pledged" : "",
+      "shortInfo" : "",
+      "longInfo" : "",
+      "imageUrl" : ""
+    }
+  ],
+}

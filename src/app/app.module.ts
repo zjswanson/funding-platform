@@ -7,6 +7,8 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ListPageComponent } from './list-page/list-page.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,16 @@ import { ListPageComponent } from './list-page/list-page.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+export const firebaseConfig = {
+    apiKey: masterFirebaseConfig.apiKey,
+    authDomain: masterFirebaseConfig.authDomain,
+    databaseURL: masterFirebaseConfig.databaseURL,
+    storageBucket: masterFirebaseConfig.storageBucket
+};
 export class AppModule { }
