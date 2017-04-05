@@ -1,3 +1,14 @@
-<p>
-  list-page works!
-</p>
+
+<div *ngFor="let entry of display | async">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2>{{entry.name}}</h2>
+    </div>
+    <div class="panel-body">
+      <h4>${{entry.pledged}} of ${{entry.target}} pledged</h4>
+      <p>
+        {{entry.shortInfo}}
+      </p>
+    </div>
+  </div>
+</div>

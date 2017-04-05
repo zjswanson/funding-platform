@@ -1,15 +1,20 @@
-<div *ngFor="let array of punchStarters | async">
-  <h1 *ngFor="let entry of array">Project Name: {{entry.name}}</h1>
-</div>
-<div *ngFor="let project of projects | async">
-  <h1>Project Name: {{project.name}}</h1>
-  <h2>Description: {{project.shortInfo}}</h2>
-</div>
-<div *ngFor="let charitable of charitables | async">
-  <h1>Project Name: {{charitable.name}}</h1>
-  <h2>Description: {{charitable.shortInfo}}</h2>
-</div>
-<div *ngFor="let idea of ideas | async">
-  <h1>Project Name: {{idea.name}}</h1>
-  <h2>Description: {{idea.shortInfo}}</h2>
-</div>
+  <h1 class="center">Welcome to PunchStarter!</h1>
+  <h2 class="center">Check out our current options below.</h2>
+  <br>
+  <div *ngFor="let array of punchStarters | async" >
+    <div class="container">
+      <div *ngFor="let entry of array" class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2>{{entry.name}}</h2>
+          </div>
+          <div class="panel-body">
+            <h4>${{entry.pledged}} of ${{entry.target}} pledged</h4>
+            <p>
+              {{entry.shortInfo}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

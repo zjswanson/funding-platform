@@ -10,15 +10,15 @@ const appRoutes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'project-list',
+    path: 'projects',
     component: ListPageComponent
   },
   {
-    path: 'charitable-list',
+    path: 'charitables',
     component: ListPageComponent
   },
   {
-    path: 'idea-list',
+    path: 'ideas',
     component: ListPageComponent
   }
 ];
