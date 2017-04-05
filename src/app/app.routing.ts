@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ListPageComponent } from './list-page/list-page.component';
 import { DetailComponent } from './detail/detail.component';
+import { NewComponent } from './new/new.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'ideas',
     component: ListPageComponent
+  },
+  {
+    path: 'new',
+    component: NewComponent
   },
   {
     path: 'detail/:id',

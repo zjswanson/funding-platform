@@ -1,0 +1,17 @@
+<div class="well">
+  <label>Enter PunchStarter Name:</label>
+  <input #newName class="form-control">
+  <label>Enter target funding amount:</label>
+  <input #newTarget class="form-control" type="number">
+  <label>Enter URL for Image:</label>
+  <input #newImage class="form-control" type="string">
+  <label>Short Description:</label>
+  <textarea #newShortInfo class="form-control"></textarea>
+  <label>Full Description:</label>
+  <textarea #newLongInfo class="form-control"></textarea>
+
+
+
+
+  <button (click)="addEntry(newName.value, newTarget.value, newImage.value, newShortInfo.value, newLongInfo.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value='';">Add New PunchStarter!</button>
+</div>
