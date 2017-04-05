@@ -1,5 +1,5 @@
 
-<div *ngFor="let entry of display | async">
+<div *ngFor="let entry of display | async" (click)="goToDetailPage(entry)">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h2>{{entry.name}}</h2>

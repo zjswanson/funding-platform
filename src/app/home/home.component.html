@@ -1,10 +1,10 @@
   <h1 class="center">Welcome to PunchStarter!</h1>
   <h2 class="center">Check out our current options below.</h2>
   <br>
-  <div *ngFor="let array of punchStarters | async" >
+  <div *ngFor="let array of punchStarters | async" (click)="goToDetailPage(array)">
     <div class="container">
-      <div *ngFor="let entry of array" class="col-sm-6">
-        <div class="panel panel-default">
+      <div *ngFor="let entry of array" class="col-sm-6" >
+        <div class="panel panel-default" >
           <div class="panel-heading">
             <h2>{{entry.name}}</h2>
           </div>

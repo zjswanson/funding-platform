@@ -25,6 +25,10 @@ export class ListPageComponent implements OnInit {
     }
   }
 
+  goToDetailPage(entry) {
+   this.router.navigate(['detail', entry.$key]);
+  } 
+
 
 
 }
