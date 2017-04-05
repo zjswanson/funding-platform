@@ -1,3 +1,15 @@
-<p>
-  home works!
-</p>
+<div *ngFor="let array of punchStarters | async">
+  <h1 *ngFor="let entry of array">Project Name: {{entry.name}}</h1>
+</div>
+<div *ngFor="let project of projects | async">
+  <h1>Project Name: {{project.name}}</h1>
+  <h2>Description: {{project.shortInfo}}</h2>
+</div>
+<div *ngFor="let charitable of charitables | async">
+  <h1>Project Name: {{charitable.name}}</h1>
+  <h2>Description: {{charitable.shortInfo}}</h2>
+</div>
+<div *ngFor="let idea of ideas | async">
+  <h1>Project Name: {{idea.name}}</h1>
+  <h2>Description: {{idea.shortInfo}}</h2>
+</div>

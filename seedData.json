@@ -1,70 +1,69 @@
 {
   "ideas" : [
     {
-      "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
-      "imageUrl" : "",
-      "risk" : "",
-      "inspiration" : ""
+      "name" : "The Watchmaker",
+      "target" : "30000",
+      "funded" : "1",
+      "pledged" : "695",
+      "shortInfo" : "Alexander lost control over time itself, which makes him grow older by every second. Help him solve the mystery of his clock tower.",
+      "longInfo" : " The Watchmaker is an innovative third-person game, developed in Unreal Engine 4 for PC, PS4 and Xbox One that mixes puzzles and adventure in a challenging series of levels full of riddles, action and mystery. In the game, you are Alexander, who is trapped in a steampunk world, similar to a large clock mechanism, where your mission is to not only repair it, but to discover why you are there and who has sabotaged it. But not everything is so simple. Alexander is aging quickly due to the collapsed time, the fight is not just against the saboteur: it's against time itself.",
+      "imageUrl" : "https://ksr-ugc.imgix.net/assets/016/066/725/f0f806e04de4ca2a8c0d286d74235643_original.png?w=680&fit=max&v=1490887553&auto=format&lossless=true&s=3b02eb068e94492d7584de063c8a97c7",
+      "risk" : "We have had a little less than three years of intense work where everyday there is a certain feeling, which shapes the happiness of making a game like The Watchmaker but also helplessness because everything is so difficult.  Our risks are huge, we are running out of money, our team was able to grow and it’s even a bigger priority to keep it, so we want to do it because the quality of our work deserves it. In our country there are few companies that are working in games of this size and by far we are the company with fewer resources. Mainly because the government provides very little support to our industry. Private investors, not knowing the business, don’t take risks in video game companies because they prefer to invest in markets already explored, not to mention our personal resources.",
+      "inspiration" : "Jules Vern"
     },
     {
-      "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
+      "name" : "OUTBUDDIES",
+      "target" : "5338",
+      "funded" : "27",
+      "pledged" : "1479",
+      "shortInfo" : "An otherworldly retro inspired Metroidvania about a lost scientist and a forgotten droid on their way home. Made by one kid of the 80s.",
+      "longInfo" : "Outbuddies´ story unfolds in Bahlam, a sunken city of the Old Gods, located deep in the South Pacific ocean. After a shipwreck, our main protagonist John, a marine biologist, wakes up 36.000 feet under the sea. He´s severely wounded and unwillingly connected to a supernatural Buddy-unit, which can be controlled at will to manipulate his surroundings using various abilities like hacking, scanning and telekinesis. Searching for answers about his displacement John quickly realises that there´s danger lurking in the dark... ",
       "imageUrl" : "",
-      "risk" : "",
-      "inspiration" : ""
+      "risk" : "Julian Laufer is the only person in charge of fulfilling the backers' rewards. Robin and Amanda will join the project as associated freelancers if their stretch goals are reached but are not accountable regarding this campaign. I cannot exclude the possibility of delays. Most indie developers suck at estimating time and I´m no exemption there. Besides this disclaimer, I´m actually confident to match the expected release date in Q2/2018 and I can guarantee that I will work my ass off to make this game happen! Thank you very much for your support ^o^",
+      "inspiration" : "Over the course of the game's development since early 2013, I constantly integrated player feedback to preserve the iconic core mechanics from the past while adapting gameplay and presentation to today's demands."
     }
   ],
-  "charitable" : [
+  "charitables" : [
     {
-      "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
-      "imageUrl" : "",
-      "deductable" : "",
-      "beneficiary" : ""
+      "name" : "Delta Tau Delta Mr. Greek 2017",
+      "target" : "5000",
+      "funded" : "86",
+      "pledged" : "4345",
+      "shortInfo" : "Hi, my name is Davis Ferrero from the University of Washington's Delta Tau Delta Fraternity, and I am currently running for Alpha Gamma Delta's Mr. Greek Philanthropy. ",
+      "longInfo" : "If you choose to donate, your money will go to Tree House for Kids, a charity organization dedicated to giving foster children a happy childhood and a successful future. In addition, by donating to this fund, you will help support diabetes awareness and education through the Alpha Gamma Delta Fundation. I would like to stress that any amount of money donated is highly appreciated and I thank all of you in advance for helping contribute.",
+      "imageUrl" : "https://d2g8igdw686xgo.cloudfront.net/17511660_1484710682.8311.jpg",
+      "deductable" : "false",
+      "beneficiary" : "Mr. Greek 2017"
     },
     {
       "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
-      "imageUrl" : "",
-      "deductable" : "",
-      "beneficiary" : ""
+      "target" : "2000",
+      "funded" : "40",
+      "pledged" : "801",
+      "shortInfo" : "Hey! I'm Kaya",
+      "longInfo" : "Hey! I'm Kaya and I am representing Binghamton's Delta Phi Epsilon Sorority in this year's Miss Aphrodite! Through this event, we hope to bring together all of Binghamton University's Greek life under the common goal of donating to the Children's Miracle Network Hospital. Donate, share and support Kaya for Miss Aphrodite! #doitforthekids Help spread the word!",
+      "imageUrl" : "https://d2g8igdw686xgo.cloudfront.net/19136618_1490656782.8665_funddescription.jpg",
+      "deductable" : "false",
+      "beneficiary" : "Kaya"
     }
   ],
   "projects" : [
     {
-      "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
-      "imageUrl" : ""
+      "name" : "Hillbilly Weatherman Video Fund",
+      "target" : "50000",
+      "funded" : "11",
+      "pledged" : "5136",
+      "shortInfo" : "I'm a Hillbilly Weatherman",
+      "longInfo" : "3 seasons ago these videos began, and the audience, and interest, has grown tremendously. I never imagined it ever would. The ability to produce quality videos on a regular basis clashes with having to earn a living and provide for my family. I sent Donald Trump a message asking for a small loan of 1 million dollars, but haven't heard anything back.  So now, after much consideration, I have decided to start a GoFundMe page to allow the viewers to donate to this venture. If I am able to reach this goal, I will turn Hillbilly Weather into a regular thing for the following year. With the large viewing audience I have, a small donation from you would allow me to do just that. I feel like I let you guys down when I am unable to post a video, and I would like to be able to post more regularly. I appreciate all of the support, and kind words everyone has offered over the years and would be very grateful for your help. Help spread the word!",
+      "imageUrl" : "https://d2g8igdw686xgo.cloudfront.net/3428981_1486819278.6217.jpg"
     },
     {
-      "name" : "",
-      "target" : "",
-      "funded" : "",
-      "pledged" : "",
-      "shortInfo" : "",
-      "longInfo" : "",
-      "imageUrl" : ""
-    }
-  ],
+      "name" : "Nigeria Women's Bobsled Team",
+      "target" : "20543",
+      "funded" : "13",
+      "pledged" : "150000",
+      "shortInfo" : "By 2016, I was inspired to start the Nigerian Women's Bobsled team in hopes of being the first ever African representative, men or women, to qualify for the Winter Olympic Games in the sport of Bobsled. ",
+      "longInfo" : "I am not a believer of “coincidence” – rather a God-fearing woman who understands that blessings are bestowed upon us when we maximize opportunities and operate with a selfless heart. My name is Seun Adigun, and I am the driver of the aspirant 2018 Winter Olympic Nigerian Women's Bobsled Team.",
+      "imageUrl" : "https://d2g8igdw686xgo.cloudfront.net/16110632_1482006453.5027_funddescription.jpg"
+    }]
 }

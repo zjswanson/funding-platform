@@ -20,7 +20,7 @@ const appRoutes: Routes = [
   {
     path: 'idea-list',
     component: ListPageComponent
-  },
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

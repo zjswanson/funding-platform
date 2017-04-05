@@ -10,6 +10,13 @@ import { ListPageComponent } from './list-page/list-page.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 
+export const firebaseConfig = {
+    apiKey: masterFirebaseConfig.apiKey,
+    authDomain: masterFirebaseConfig.authDomain,
+    databaseURL: masterFirebaseConfig.databaseURL,
+    storageBucket: masterFirebaseConfig.storageBucket
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,10 +33,5 @@ import { AngularFireModule } from 'angularfire2';
   providers: [],
   bootstrap: [AppComponent]
 })
-export const firebaseConfig = {
-    apiKey: masterFirebaseConfig.apiKey,
-    authDomain: masterFirebaseConfig.authDomain,
-    databaseURL: masterFirebaseConfig.databaseURL,
-    storageBucket: masterFirebaseConfig.storageBucket
-};
+
 export class AppModule { }
