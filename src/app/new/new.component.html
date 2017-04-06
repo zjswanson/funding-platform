@@ -17,20 +17,27 @@
   <textarea #newShortInfo class="form-control"></textarea>
   <label>Full Description:</label>
   <textarea #newLongInfo class="form-control"></textarea>
+
+  <div *ngIf="projectType=== 'project'">
+    <button (click)="addProject(newName.value, newTarget.value, newShortInfo.value, newLongInfo.value, newImage.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value='';"class="btn btn-success" >Add New Project!</button>
+  </div>
+
   <div *ngIf="projectType=== 'charitable'">
     <label>Tax Deductable?:</label>
     <input #newDeductable class="form-control">
     <label>Who is the Beneficiary?:</label>
     <input #newBeneficary class="form-control" type="text">
+    <button (click)="addCharitable(newName.value, newTarget.value, newShortInfo.value, newLongInfo.value, newImage.value, newDeductable.value, newBeneficary.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value=''; newDeductable.value=''; newBeneficary.value='';"class="btn btn-success" >Add New Charitable!</button>
   </div>
+
   <div *ngIf="projectType === 'idea'">
     <label>Risk Profile?:</label>
-    <input #newDeductable class="form-control">
+    <input #newRisk class="form-control">
     <label>Project Inspiration:</label>
-    <input #newBeneficary class="form-control" type="text">
+    <input #newInspiration class="form-control" type="text">
+    <button (click)="addIdea(newName.value, newTarget.value, newShortInfo.value, newLongInfo.value,  newImage.value, newRisk.value, newInspiration.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value=''; newRisk.value=''; newInspiration.value=''; "class="btn btn-success" >Add New Idea!</button>
   </div>
 
 
 
-  <button (click)="addEntry(newName.value, newTarget.value, newImage.value, newShortInfo.value, newLongInfo.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value='';"class="btn btn-success" >Add New PunchStarter!</button>
 </div>

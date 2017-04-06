@@ -24,6 +24,11 @@ export class FirebaseService {
     return this.projects;
   }
 
+  addProject(newProject: Project) {
+    console.log('Service works')
+    this.projects.push(newProject);
+  }
+
   getIdeas() {
     return this.ideas;
   }
