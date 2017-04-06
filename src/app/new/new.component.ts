@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new.component.css']
 })
 export class NewComponent implements OnInit {
+  projectType: string;
 
   constructor() { }
 
@@ -13,6 +14,10 @@ export class NewComponent implements OnInit {
   }
 
   addEntry(name, target, image, short, long) {
-    
+
+  }
+
+  setType(type: string) {
+    this.projectType = type;
   }
 }

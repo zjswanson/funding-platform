@@ -1,3 +1,11 @@
+<h1>Create a new PunchStarter:</h1>
+
+<div class="type">
+  <h1>Select PunchStarter Type:</h1>
+  <label><input name="typeRadio" type="radio" (click)="setType('project')" checked>Project</label>
+  <label><input name="typeRadio" type="radio" (click)="setType('charitable')">Charitable</label>
+  <label><input name="typeRadio" type="radio" (click)="setType('idea')">Idea</label>
+</div>
 <div class="well">
   <label>Enter PunchStarter Name:</label>
   <input #newName class="form-control">
@@ -9,9 +17,20 @@
   <textarea #newShortInfo class="form-control"></textarea>
   <label>Full Description:</label>
   <textarea #newLongInfo class="form-control"></textarea>
+  <div *ngIf="projectType=== 'charitable'">
+    <label>Tax Deductable?:</label>
+    <input #newDeductable class="form-control">
+    <label>Who is the Beneficiary?:</label>
+    <input #newBeneficary class="form-control" type="text">
+  </div>
+  <div *ngIf="projectType === 'idea'">
+    <label>Risk Profile?:</label>
+    <input #newDeductable class="form-control">
+    <label>Project Inspiration:</label>
+    <input #newBeneficary class="form-control" type="text">
+  </div>
 
 
 
-
-  <button (click)="addEntry(newName.value, newTarget.value, newImage.value, newShortInfo.value, newLongInfo.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value='';">Add New PunchStarter!</button>
+  <button (click)="addEntry(newName.value, newTarget.value, newImage.value, newShortInfo.value, newLongInfo.value); newName.value=''; newTarget.value=''; newImage.value=''; newShortInfo.value=''; newLongInfo.value='';"class="btn btn-success" >Add New PunchStarter!</button>
 </div>
